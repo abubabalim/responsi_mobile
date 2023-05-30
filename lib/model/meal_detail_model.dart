@@ -24,7 +24,7 @@ class MealDetailModel {
 class Meals {
   String? idMeal;
   String? strMeal;
-  Null? strDrinkAlternate;
+  String? strDrinkAlternate;
   String? strCategory;
   String? strArea;
   String? strInstructions;
@@ -72,9 +72,9 @@ class Meals {
   String? strMeasure19;
   String? strMeasure20;
   String? strSource;
-  Null? strImageSource;
-  Null? strCreativeCommonsConfirmed;
-  Null? dateModified;
+  String? strImageSource;
+  String? strCreativeCommonsConfirmed;
+  String? dateModified;
 
   Meals(
       {this.idMeal,
